@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    font-family: secBold;
+    width: 500px;
+    margin: 150px auto;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+@font-face {
+    font-family: myFirst;
+    src: url(fonts/showtime-font/Showtime-R9Ke.ttf);
+}
+
+@font-face {
+    font-family: second;
+    src: url(fonts/timeburner-font/Timeburner-xJB8.ttf);
+    font-family: secBold;
+    src: url(fonts/timeburner-font/TimeburnerBold-peGR.ttf);
+}
+
+.wr {
+    color: white;
+}
+
+#msg-el {
+    font-style: italic;
+}
+
+.box {
+    background: url(images/table.jpg);
+    padding: 20px 0px;
+}
+
+#top {
+    font-family: myFirst;
+    color: goldenrod;
+}
+
+.btn {
+    
+    display: block;
+    margin: 8px auto;
+    width: 150px;
+
+    font-size: medium;
+    font-family: secBold;
+    font-weight: bold;
+
+    background-color: goldenrod;
+    color: rgb(53, 107, 53);
+    border: none;
+    border-radius: 4px;
+    padding: 5px 5px;
+}
