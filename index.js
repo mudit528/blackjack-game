@@ -2,7 +2,7 @@ let cardEl = document.getElementById ("card-el")
 let sumEl = document.getElementById ("sum-el")
 let msgEl = document.getElementById ("msg-el")
 let sum = 0
-let isAlive = true
+let isAlive = false
 let rec = []
 
 
